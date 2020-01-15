@@ -5,7 +5,12 @@
 
 
 <style>
-
+.box {
+  display: flex;
+  width: 100%;
+  background-color: #1a1c28;
+  height: auto;
+}
 
 header {
   background-color: gray;
@@ -23,6 +28,8 @@ float: left;
   background: GRAY;
   padding: 10px;
   text-align:center;
+  margin:10px;
+
 }
 .right{
 float: right;
@@ -31,6 +38,7 @@ float: right;
   background: GRAY;
   padding: 10px;
   text-align:center;
+  margin:10px;
  
 }
 .center{
@@ -41,15 +49,16 @@ float: center;
   padding: 10px;
   text-align:center;
   font-size: 28px;
+  margin:10px;
 }
 footer {
   background-color: #777;
   padding: 10px;
   text-align: center;
   color: white;
+  
 }
   
-
 
 
 
@@ -63,15 +72,17 @@ footer {
  <h1>< header > </h1>
 </header><br>
 
+<div class="box">
 <div class="left" >nav</div>
-<div class="right" >aside</div>
+
 <div class="center" >< section >
 <ul>
   <li style="background-color:rgb(180, 180, 180);font-size: 18px">< header ></li><br>
   <li  style="background-color:rgb(180, 180, 180);font-size: 18px">< artical ></li><br>
   <li  style="background-color:rgb(180, 180, 180);font-size: 18px">< footer ></li><br>
 </ul></div></br>
-
+<div class="right" >aside</div>
+</div>
 <footer>< footer ></footer>
 
 </body>
